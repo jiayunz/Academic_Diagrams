@@ -219,7 +219,7 @@ xlabel('Fields')
 ylim([0, 0.25])
 ylabel('Percentage of B (%)')
 set(gca, 'FontSize', 20)
-lg = legend('Class 1','Class 2', 'Location', 'best', 'FontSize', 20, 'Orientation', 'horizontal', 'box', 'off')
+lg = legend('Class 1','Class 2', 'Location', 'northoutside', 'FontSize', 20, 'Orientation', 'horizontal', 'box', 'off')
 grid on
 set(gca, 'LineWidth', 1, 'GridLineStyle', ':', 'yTick',[0:0.05:0.25])
 
