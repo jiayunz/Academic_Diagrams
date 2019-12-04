@@ -1,4 +1,4 @@
-# Perfect Diagrams
+# Acadamic Diagrams
 Drawing diagrams for academic papers with Matlab.
 
 ## Examples
