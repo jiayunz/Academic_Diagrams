@@ -49,16 +49,16 @@ errorbar(x_avg, y_avg, yneg, ypos, 'LineStyle', 'none', 'LineWidth', 3, 'Color',
 # example 3
 y_num = [9607710 482667 161717 88488 57754 40627 30102 23154 18130 14967 12381]
 y_cdf = [0.9022 0.9475 0.9627 0.9710 0.9764 0.9802 0.9831 0.9852 0.9869 0.9883 0.9895 0.9905 0.9913 0.9920 0.9927 0.9933 0.9937 0.9942 0.9946 0.9949 0.9952]
-pFollowing = bar([0: 10], y_num)
+b = bar([0: 10], y_num)
 set(gca,'yscale','log')
 axis([-0.55,10.55,10e3,10e6])
 box off
-pFollowing.BarWidth = 0.98
-pFollowing.LineStyle = 'none'
+b.BarWidth = 0.98
+b.LineStyle = 'none'
 set(gca, 'FontSize', 14)
 xlabel('Number of D', 'FontSize', 16)
 ylabel('Number of E', 'FontSize', 16)
-pFollowing.FaceColor = [95 137 148]/255
+b.FaceColor = [95 137 148]/255
 axes('position',[0.5,0.51,0.38,0.38])
 subp = plot([0:20], y_cdf)
 xlabel('Number of D', 'FontSize', 16)
