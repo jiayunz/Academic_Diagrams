@@ -1,5 +1,6 @@
 # Acadamic Diagrams
 Drawing diagrams for academic papers with Matlab.
+Copyright (c) 2019 by Jiayun Zhang, Fudan University (jiayunzhang15@fudan.edu.cn)
 
 ## Examples
 ### Example 1 ~ 3
