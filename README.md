@@ -2,8 +2,10 @@
 Drawing diagrams for academic papers with Matlab.
 
 ## Examples
-<div style="float:center"><img src="https://github.com/jiayunz/Perfect_Diagrams/blob/master/figures/example_1.png"  width="300"></div>
-<div style="float:center"><img src="https://github.com/jiayunz/Perfect_Diagrams/blob/master/figures/example_2.png" width="300"></div>
+<div style="float:center">
+    <img src="https://github.com/jiayunz/Perfect_Diagrams/blob/master/figures/example_1.png"  width="300">
+    <img src="https://github.com/jiayunz/Perfect_Diagrams/blob/master/figures/example_2.png" width="300">
+</div>
 
 <center class="third">
     <img src="https://github.com/jiayunz/Perfect_Diagrams/blob/master/figures/example_1.png" width="300"/><img src="https://github.com/jiayunz/Perfect_Diagrams/blob/master/figures/example_2.png" width="300"/><img src="https://github.com/jiayunz/Perfect_Diagrams/blob/master/figures/example_3.png" width="300"/>
