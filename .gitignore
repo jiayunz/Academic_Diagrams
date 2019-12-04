@@ -1,0 +1,4 @@
+.idea/
+*.db
+.DS_Store
+figures/.DS_Store
