@@ -183,7 +183,7 @@ set(gca, 'GridLineStyle',':', 'xlim', [-100, 100], 'xTick',[-100:25:100], 'xtick
 # example 7
 
 subplot(2,1,1,'position', [0.1 0.55 0.88 0.3]);
-B1 = bar((1:7), exp7_y_f1(:, 1:2), 'BarWidth', 1, 'LineStyle', 'none')
+B1 = bar((1:7), exp7_y_f1, 'BarWidth', 1, 'LineStyle', 'none')
 b1 = B1(1)
 b1.FaceColor = [95 69 49]/255
 b2 = B1(2)
@@ -196,7 +196,7 @@ set(gca, 'xticklabel', {'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7'}, 'YTick', [0:0
 set(gca, 'GridLineStyle',':')
 
 subplot(2,1,2,'position', [0.1 0.15 0.88 0.3]);
-B2 = bar((1:7), exp7_y_auc(:, 1:2), 'BarWidth', 1, 'LineStyle', 'none')
+B2 = bar((1:7), exp7_y_auc, 'BarWidth', 1, 'LineStyle', 'none')
 b1 = B2(1)
 b1.FaceColor = [95 69 49]/255
 b2 = B2(2)
